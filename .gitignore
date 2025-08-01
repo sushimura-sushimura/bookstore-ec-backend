@@ -1,0 +1,22 @@
+# Maven / Java
+/target/
+*.log
+*.jar
+*.war
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# Nix
+/result
+.direnv/
+
+# OS
+.DS_Store
+Thumbs.db
