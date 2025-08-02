@@ -4,6 +4,7 @@ import com.example.bookstore_ec_backend.domain.repository.BookRepository;
 import com.example.bookstore_ec_backend.domain.entity.BookEntity;
 import com.example.bookstore_ec_backend.model.Book;
 import org.springframework.stereotype.Service;
+import com.example.bookstore_ec_backend.domain.exception.ResourceNotFoundException; // 例外クラスをインポート
 
 @Service // このクラスがビジネスロジックを担うServiceであることをSpringに伝える
 public class BookService {
@@ -20,7 +21,7 @@ public class BookService {
         // 今はまだダミーデータを返すロジックをここに記述
         // 将来的には、ここでデータベースからデータを取得する処理を呼び出す
         BookEntity entity = bookRepository.findById(bookId)
-                .orElseThrow(() -> new RuntimeException("Book not found with id: " + bookId));
+                .orElseThrow(() -> new ResourceNotFoundException("Book not found with id: " + bookId));
 
         Book dto = new Book();
         dto.setId(entity.getId());
