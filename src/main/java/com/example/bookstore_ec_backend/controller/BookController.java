@@ -21,7 +21,6 @@ public class BookController implements BooksApi {
     public ResponseEntity<Book> getBookById(Long bookId) {
         // 実際の処理はBookServiceに任せる
         Book response = bookService.findBookById(bookId);
-        
         return ResponseEntity.ok(response);
     }
 }
