@@ -1,5 +1,6 @@
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/BookstoreEcBackendApplication.java
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/controller/BookController.java
+/Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/service/BookService.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/ApiUtil.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/BooksApi.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/model/Book.java

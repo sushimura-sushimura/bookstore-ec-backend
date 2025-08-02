@@ -2,4 +2,5 @@ com/example/bookstore_ec_backend/controller/BookController.class
 com/example/bookstore_ec_backend/model/Book.class
 com/example/bookstore_ec_backend/api/BooksApi.class
 com/example/bookstore_ec_backend/api/ApiUtil.class
+com/example/bookstore_ec_backend/service/BookService.class
 com/example/bookstore_ec_backend/BookstoreEcBackendApplication.class
