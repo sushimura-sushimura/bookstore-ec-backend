@@ -2,6 +2,7 @@
 /target/
 *.log
 *.jar
+
 *.war
 
 # IDEs
