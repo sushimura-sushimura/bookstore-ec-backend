@@ -5,5 +5,4 @@ com/example/bookstore_ec_backend/api/ApiUtil.class
 com/example/bookstore_ec_backend/domain/repository/BookRepository.class
 com/example/bookstore_ec_backend/service/BookService.class
 com/example/bookstore_ec_backend/BookstoreEcBackendApplication.class
-com/example/bookstore_ec_backend/infrastructure/repository/InMemoryBookRepository.class
 com/example/bookstore_ec_backend/domain/entity/BookEntity.class
