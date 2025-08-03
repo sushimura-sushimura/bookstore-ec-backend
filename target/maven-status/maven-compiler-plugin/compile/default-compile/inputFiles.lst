@@ -8,3 +8,4 @@
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/ApiUtil.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/BooksApi.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/model/Book.java
+/Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/model/GetBookById404Response.java
