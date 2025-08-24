@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface BookRepository extends JpaRepository<BookEntity, Long> {
-
+public interface BookRepository {
+  Optional<BookEntity> findById(Long bookId);
 }
