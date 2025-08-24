@@ -4,6 +4,8 @@
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/domain/entity/BookEntity.java
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/domain/exception/ResourceNotFoundException.java
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/domain/repository/BookRepository.java
+/Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/infrastructure/mybatis/BookMapper.java
+/Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/infrastructure/repository/MyBatisBookRepository.java
 /Users/masamura/develop/bookstore-ec-backend/src/main/java/com/example/bookstore_ec_backend/service/BookService.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/ApiUtil.java
 /Users/masamura/develop/bookstore-ec-backend/target/generated-sources/openapi/src/main/java/com/example/bookstore_ec_backend/api/BooksApi.java
