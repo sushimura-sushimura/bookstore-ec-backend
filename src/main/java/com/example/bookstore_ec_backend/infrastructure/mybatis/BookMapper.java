@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.Optional;
 
-@Mapper // このインターフェースがMyBatisのMapperであることを示す
+@Mapper
 public interface BookMapper {
     Optional<BookEntity> findById(Long bookId);
 }
